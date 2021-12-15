@@ -8,83 +8,99 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Orbitron:wght@400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>About</title>
 </head>
 <body>
-<header>
-    <h1>Portfolio Page for midterm</h1>
-</header>
-<aside class="aside_profile">
-    <img src="https://www.kmdb.or.kr/upload/kmdbupload/story/2018/09/12/c55ce12d-55fc-42d9-88da-1b95af136056.jpg"
-         id="profile_img" align="center">
-    <h2>Jihyeon Ha</h2>
-    <p>Gihub: <a href="https://github.com/kkimhaji">https://github.com/kkimhaji</a></p>
-    <p>Jeju National University</p>
-    <p>
-        Major in Computer Engineering
-    </p>
-</aside>
-
-    <section class="main_container">
-        <article id="introducing">
-            <h2>언어</h2>
-            <p>Java, C++, Python, JavaScript 등</p>
-            <hr>
-            <h3>학력</h3>
-            <ol>
-                <li>2016 제주중앙여자고등학교 졸업</li>
-                <li>2016 한국외국어대학교 입학 - 자퇴</li>
-                <li>2019년 제주대학교 입학</li>
-            </ol>
-            <hr>
-            <h3>Back-end 개발자 희망 중</h3>
-            <p>Spring boot, Express, Django, MongoDB</p>
-            <hr>
-            <h2>이력</h2>
-            <ul>
-                <li><a href="https://github.com/Yojigyeong/Yojigyeong">코로나 백신 접종 국가 웹페이지 </a> </li>
-
-                <li><a href="https://github.com/Ohdo2021/wheeliric">휠체어 접근 가능 시설 표기 모바일 앱</a> </li>
-                <li>2021 Summer LGSI Internship</li>
-                <li>2019 ICPC 대회 참가</li>
-                <li>8, 9회 K-해커톤 참가</li>
-            </ul>
-
-        </article>
-        <article>
-            <div id="iframe">
-                <h2>기초웹개발론 과제 html</h2>
-                <table>
-                    <tr>
-                        <th>How to install IntelliJ Ultimate</th>
-                        <td><iframe src="ultmiate.html"></iframe></td>
-                    </tr>
-                    <tr>
-                        <th>IntelliJ Shortcuts</th>
-                        <td><iframe src="shortcuts.html"></iframe></td>
-                    </tr>
-                    <tr>
-                        <th>Web Trend</th>
-                        <td><iframe src="web_trend.html"></iframe></td>
-                    </tr>
-                    <tr>
-                        <th>assignment</th>
-                        <td><iframe src="hello_dialog.html"></iframe></td>
-                    </tr>
-                </table>
-
+    <div class="wrapper">
+        <header>
+            <h1>About ME</h1>
+        </header>
+        <aside class="aside_profile">
+            <div id="profile">
+                <div class="image"></div>
+                <article id="info">
+                    <h2>Jihyeon Ha</h2>
+                    <p>Gihub <a href="https://github.com/kkimhaji">https://github.com/kkimhaji</a></p>
+                    <p>Jeju National University</p>
+                    <p>
+                        Major in Computer Engineering
+                    </p>
+                </article>
             </div>
-        </article>
 
-    </section>
-<footer>
-    <p>
-        font: https://fonts.google.com/specimen/Abril+Fatface#standard-styles
-        <br>
-        image: Kmdb
-    </p>
-</footer>
+            <hr>
+            <div class="nav">
+                <li>
+                    <a class="side_link" href="#aboutme">About Me</a>
+                </li>
+                <li>Portfolio</li>
+                <li>Experience</li>
+                <li>
+                    <a class="side_link" href="#Assignment">Assignment</a>
+                </li>
+            </div>
+
+        </aside>
+        <section class="main_container">
+            <article id="introducing">
+                <h2>언어</h2>
+                <p>Java, C++, Python, JavaScript 등</p>
+                <hr>
+                <h3>학력</h3>
+                <ol>
+                    <li>2016 제주중앙여자고등학교 졸업</li>
+                    <li>2016 한국외국어대학교 입학 - 자퇴</li>
+                    <li>2019년 제주대학교 입학</li>
+                </ol>
+                <hr>
+                <h3>Back-end 개발자 희망 중</h3>
+                <p>Spring boot, Express, Django, MongoDB</p>
+                <hr>
+                <h2>이력</h2>
+                <ul>
+                    <li><a href="https://github.com/Yojigyeong/Yojigyeong">코로나 백신 접종 국가 웹페이지 </a> </li>
+                    <li><a href="https://github.com/Ohdo2021/wheeliric">휠체어 접근 가능 시설 표기 모바일 앱</a> </li>
+                    <li>2021 Summer LGSI Internship</li>
+                    <li>2019 ICPC 대회 참가</li>
+                    <li>8, 9회 K-해커톤 참가</li>
+                </ul>
+
+            </article>
+            <article>
+                <div id="iframe">
+                    <h2>기초웹개발론 과제 html</h2>
+                    <table>
+                        <tr>
+                            <th>How to install IntelliJ Ultimate</th>
+                            <td><iframe src="ultmiate.html"></iframe></td>
+                        </tr>
+                        <tr>
+                            <th>IntelliJ Shortcuts</th>
+                            <td><iframe src="shortcuts.html"></iframe></td>
+                        </tr>
+                        <tr>
+                            <th>Web Trend</th>
+                            <td><iframe src="web_trend.html"></iframe></td>
+                        </tr>
+                        <tr>
+                            <th>assignment</th>
+                            <td><iframe src="hello_dialog.html"></iframe></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </article>
+
+        </section>
+        <footer>
+            <p>
+                font: https://fonts.google.com/specimen/Abril+Fatface#standard-styles
+                <br>
+                image: Kmdb
+            </p>
+        </footer>
+    </div>
 
 </body>
 
