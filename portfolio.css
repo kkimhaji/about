@@ -4,7 +4,7 @@ body {
     /*text-align: center;*/
     font-size: 130%;
     width: 100%;
-
+    white-space: normal;
 }
 
 .wrapper{
@@ -72,25 +72,28 @@ a{
     list-style: none;
 }
 
-.aside_profile a:hover{
+body a:hover{
     color: orange;
 }
 
 #aboutme{
-    line-height: 150%;
-    font-size: 130%;
-    font-family: 'Noto Serif KR', serif;
-
+    /*line-height: 150%;*/
+    /*font-size: 130%;*/
+    /*font-family: 'Noto Serif KR', serif;*/
 }
 
-#h_about{
+.article_h{
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     background-color: #DCF4F5;
     line-height: 130%;
 }
+
 .main_container{
+    line-height: 150%;
+    font-size: 130%;
+    font-family: 'Noto Serif KR', serif;
     justify-content: center;
     /*margin: 10px;*/
     /*margin-right: 50px;*/
@@ -119,8 +122,9 @@ a{
 .nav{
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
-    font-size: 30px;
+    font-size: 38px;
     line-height: 200%;
+    position: sticky;
 }
 
 .nav li a{
@@ -160,13 +164,19 @@ footer{
 .cube {
     width: 300px;
     height: 300px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 20%;
     transform-style: preserve-3d;
     /*transition: 2s;*/
     animation: ani 5s linear infinite;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @keyframes ani {
     0%{
