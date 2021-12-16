@@ -60,7 +60,7 @@ li{
     font-size: 90%;
 }
 td{
-    width: 50%;
+    max-width: 300px;
 }
 
 header{grid-area: header; display: flex;}
@@ -73,8 +73,8 @@ footer {
 }
 
 .h_port path{
-    animation: ani-header 1s linear 1s forwards
-/*end 0.5s linear 2s forwards;*/
+    animation: ani-header 1s linear forwards,
+                end 0.5s linear 2s forwards;
 }
 @keyframes ani-header {
     to{
@@ -84,13 +84,13 @@ footer {
 
 @keyframes end {
     to{
-        fill: #3d5a80;
+        fill: #CEE4F3;
     }
 }
 
 .h_port path:nth-child(1){
-    stroke-dasharray: 295px;
-    stroke-dashoffset: 295px;
+    stroke-dasharray: 292px;
+    stroke-dashoffset: 292px;
 }
 
 .h_port path:nth-child(2){
@@ -166,7 +166,7 @@ footer {
 .h_port path:nth-child(14){
     stroke-dasharray: 157px;
     stroke-dashoffset: 157px;
-    animation-delay: 7s;
+    animation-delay: 6.5s;
 }
 
 header {
@@ -233,11 +233,12 @@ body a:hover{
 
 .language{
     text-align: center;
+
 }
 #portfolio img{
-    /*max-width: 300px;*/
+    max-width: 300px;
     /*min-width: 10px;*/
-    object-fit: contain;
+    /*object-fit: contain;*/
 }
 
 .article_h{
