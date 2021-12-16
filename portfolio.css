@@ -7,7 +7,7 @@ body {
     /*text-align: center;*/
     font-size: 130%;
     width: 100%;
-    white-space: normal;
+    /*white-space: normal;*/
 }
 
 .wrapper{
@@ -24,29 +24,36 @@ body {
     .wrapper{
         grid-template-columns: 35% 65%;
     }
+    .td_info{
+        font-size: 95%;
+    }
 
 }
 
-table{
-    margin: 1em;
-    text-align: left;
+li{
+    margin-top: 1em;
 }
-
 .td_info {
     /*font-size: 100%;*/
     padding: 1em;
     margin: 2em;
 }
+
+.td_info p{
+    font-size: 90%;
+}
 td{
     width: 50%;
-
 }
 
 header{grid-area: header;}
 section {grid-area: section;}
 aside {grid-area: aside;}
 nav {grid-area: nav;}
-footer {grid-area: footer;}
+footer {
+    grid-area: footer;
+    background-color: #DAE1E1;
+}
 
 
 header {
@@ -54,7 +61,7 @@ header {
     margin-bottom: 20px;
     /*gird-area: header;*/
     height: 100px;
-    font-size: 100px;
+    font-size: 200%;
     font-family: 'Orbitron', sans-serif;
     font-weight: 800;
 }
@@ -124,7 +131,7 @@ body a:hover{
 .main_container{
     line-height: 150%;
     font-size: 130%;
-    font-family: 'Noto Serif KR', serif;
+    /*font-family: 'Noto Serif KR', serif;*/
     justify-content: center;
     /*margin: 10px;*/
     /*margin-right: 50px;*/
